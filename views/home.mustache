@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{>head}}
+  	</head>
+
+	<body>
+		<div id="vertex-container">
+        {{>header}}
+
+        <section class="hero-section" id="hero_section">
+            <div class="container">
+                <div class="row figure-holder" style="background-image: url('{{{page.hero_section.img_hero}}}=s1080');">
+                    <div class="col-12 col-md-6 pt-3 pt-md-4">
+                        <h2 class="site-headline font-weight-bold mt-lg-5 pt-lg-5">{{page.hero_section.title}}</h2>
+                        <div class="site-tagline mb-3">{{page.hero_section.description}}</div>
+                        <div class="cta-btns">
+                            <div class="mb-4"><a class="scroll-btn btn btn-primary font-weight-bold theme-btn" href="#register">{{page.hero_section.btn_text}}</a></div>
+                        </div>
+                    </div>
+                </div><!--//row-->
+            </div>
+        </section><!--//hero-section-->
+        
+        {{#page.section1.show_or_hide}}
+        <section class="logos-section theme-bg-primary py-5 text-center" id="section1">
+            <div class="container">
+                <h3 class="mb-5">{{page.section1.title}}</h3>
+                <div class="logos-row row mx-auto"> 
+                    {{#page.section1.clients}}
+                        <div class="item col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                            <div class="item-inner">
+                                <img src="{{{img_client}}}" alt="logo">
+                            </div><!--//item-inner-->
+                        </div><!--//item-->
+                    {{/page.section1.clients}}
+                </div>
+                    
+            </div><!--//container-->
+        </section><!--//logo-section-->
+        {{/page.section1.show_or_hide}}
+        
+        {{#page.section2.show_or_hide}}
+        <section class="benefits-section py-5" id="section2"> 
+            <div class="container py-lg-5">
+                <h3 class="mb-5 text-center font-weight-bold">{{page.section2.title}}</h3>
+                <div class="row">
+                    <div class="item col-12 col-lg-4">
+                        <div class="item-inner text-center p-3 p-lg-5">
+                            <img class="mb-3" src="{{{page.section2.lists.list1.img_list}}}" alt="" />
+                            <h5>{{page.section2.lists.list1.title}}</h5>
+                            <div>{{page.section2.lists.list1.description}}</div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-12 col-lg-4">
+                        <div class="item-inner text-center p-3 p-lg-5">
+                            <img class="mb-3" src="{{{page.section2.lists.list2.img_list}}}" alt="" />
+                            <h5>{{page.section2.lists.list2.title}}</h5>
+                            <div>{{page.section2.lists.list2.description}}</div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-12 col-lg-4">
+                        <div class="item-inner text-center p-3 p-lg-5">
+                            <img class="mb-3" src="{{{page.section2.lists.list3.img_list}}}" alt="" />
+                            <h5>{{page.section2.lists.list3.title}}</h5>
+                            <div>{{page.section2.lists.list3.description}}</div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                </div><!--//row-->
+                <div class="pt-3 text-center">
+                    <a class="scroll-btn btn btn-primary theme-btn theme-btn-ghost font-weight-bold" href="#register">{{page.section2.btn_text}}</a>
+                </div>
+            </div>
+        </section><!--//benefits-section-->
+        {{/page.section2.show_or_hide}}
+        
+        {{#page.section3.show_or_hide}}
+        <section class="features-section py-5" id="section3">
+            <div class="container py-lg-5">
+                <h3 class="mb-3 text-center font-weight-bold section-heading">{{page.section3.title}}</h3>
+                <div class="row pt-5 mb-5">
+                    <div class="col-12 col-md-6 col-xl-5 offset-xl-1 d-none d-md-block">
+                        <img class="product-figure product-figure-1 img-fluid" src="{{{page.section3.section1.img_section}}}=s1080" alt="" />
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-xl-5 pr-xl-3 pt-md-3">
+                        <div class="card rounded border-0 shadow-lg  mb-5">
+                            <div class="card-body p-4">
+                                <h5 class="card-title"><img src="{{{page.section3.section1.lists.list1.img_icon}}}"/>{{page.section3.section1.lists.list1.title}}</h5>
+                                <p class="card-text">{{page.section3.section1.lists.list1.description}}</p>
+                            </div>
+                        </div><!--//card-->
+                        
+                        <div class="card rounded border-0 shadow-lg mb-5">
+                             <div class="card-body p-4">
+                                <h5 class="card-title"><img src="{{{page.section3.section1.lists.list2.img_icon}}}"/>{{page.section3.section1.lists.list2.title}}</h5>
+                                <p class="card-text">{{page.section3.section1.lists.list2.description}}</p>
+                            </div>
+                        </div><!--//card-->
+                        <div class="card rounded border-0 shadow-lg">
+                             <div class="card-body p-4">
+                                <h5 class="card-title"><img src="{{{page.section3.section1.lists.list3.img_icon}}}"/>{{page.section3.section1.lists.list3.title}}</h5>
+                                <p class="card-text">{{page.section3.section1.lists.list3.description}}</p>
+                            </div>
+                        </div><!--//card-->
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12 col-md-6 col-xl-5 order-md-2 pr-xl-3 d-none d-md-block">
+                        <img class="product-figure product-figure-2 img-fluid" src="{{{page.section3.section2.img_section}}}=s1080" alt="" />
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-5 order-md-1 offset-xl-1 pt-xl-5">
+                        <div class="card rounded border-0 shadow-lg  mb-5">
+                            <div class="card-body p-4">
+                                <h5 class="card-title"><img src="{{{page.section3.section2.lists.list1.img_icon}}}"/>{{page.section3.section2.lists.list1.title}}</h5>
+                                <p class="card-text">{{page.section3.section2.lists.list1.description}}</p>
+                            </div>
+                        </div><!--//card-->
+                        
+                        <div class="card rounded border-0 shadow-lg">
+                            <div class="card-body p-4">
+                                <h5 class="card-title"><img src="{{{page.section3.section2.lists.list2.img_icon}}}"/>{{page.section3.section2.lists.list2.title}}</h5>
+                                <p class="card-text">{{page.section3.section2.lists.list2.description}}</p>
+                            </div>
+                        </div><!--//card-->
+                    </div>
+                </div>
+                
+                <div class="pt-5 text-center">
+                    <a class="scroll-btn btn btn-primary theme-btn theme-btn-ghost font-weight-bold" href="#register">{{page.section3.btn_text}}</a>
+                </div>
+            </div><!--//container-->
+            
+        </section><!--//features-section-->
+        {{/page.section3.show_or_hide}}
+        
+        {{#page.section4.show_or_hide}}
+        <section class="cta-section py-5 theme-bg-secondary text-center" id="section4">
+            <div class="container">
+                <h3 class="text-white font-weight-bold mb-3">{{page.section4.title}}</h3>
+                <div class="text-white mx-auto single-col-max-width section-intro">{{page.section4.description}}</div>
+                <a class="scroll-btn btn theme-btn theme-btn-ghost theme-btn-on-bg mt-4" href="#register">{{page.section4.btn_text}}</a>
+            </div>
+        </section><!--//cta-section-->
+        {{/page.section4.show_or_hide}}
+        
+        {{#page.section5.show_or_hide}}
+        <section class="testimonial-section py-5" id="section5">
+            <div class="container py-lg-5">
+                <h3 class="mb-1 mb-md-5 text-center">Loved by thousands of app developers like you</h3>
+                
+                <div id="flipster-carousel" class="flipster-carousel pt-md-3">
+                    <div class="flip-items pb-5">
+                        <div class="flip-item">
+                            <div class="item-inner shadow-lg rounded">
+                                <h5 class="mb-2">{{page.section5.testimonials.list1.title}}</h5>
+                                <div class="mb-3">{{page.section5.testimonials.list1.description}}
+                                </div>
+                                <div class="source media flex-column flex-md-row">
+                                    <img class="source-profile rounded-circle mr-md-3 mx-auto mx-md-0" src="{{{page.section5.testimonials.list1.img_list}}}" alt="" />
+                                    <div class="source-info media-body pt-3">
+                                        <div>{{page.section5.testimonials.list1.name}}</div>
+                                        <div>{{page.section5.testimonials.list1.address}}</div>
+                                    </div>
+                                </div>
+                            </div><!--//item-inner-->
+                        </div><!--//flip-item-->
+                        
+                        <div class="flip-item">
+                            <div class="item-inner shadow-lg rounded">
+                                <h5 class="mb-2">{{page.section5.testimonials.list2.title}}</h5>
+                                <div class="mb-3">{{page.section5.testimonials.list2.description}}
+                                </div>
+                                <div class="source media flex-column flex-md-row">
+                                    <img class="source-profile rounded-circle mr-md-3 mx-auto mx-md-0" src="{{{page.section5.testimonials.list2.img_list}}}" alt="" />
+                                    <div class="source-info media-body pt-3">
+                                        <div>{{page.section5.testimonials.list2.name}}</div>
+                                        <div>{{page.section5.testimonials.list2.address}}</div>
+                                    </div>
+                                </div>
+                            </div><!--//item-inner-->
+                        </div><!--//flip-item-->
+                        
+                        <div class="flip-item">
+                            <div class="item-inner shadow-lg rounded">
+                                <h5 class="mb-2">{{page.section5.testimonials.list3.title}}</h5>
+                                <div class="mb-3">{{page.section5.testimonials.list3.description}}
+                                </div>
+                                <div class="source media flex-column flex-md-row">
+                                    <img class="source-profile rounded-circle mr-md-3 mx-auto mx-md-0" src="{{{page.section5.testimonials.list3.img_list}}}" alt="" />
+                                    <div class="source-info media-body pt-3">
+                                        <div>{{page.section5.testimonials.list3.name}}</div>
+                                        <div>{{page.section5.testimonials.list3.address}}</div>
+                                    </div>
+                                </div>
+                            </div><!--//item-inner-->
+                        </div><!--//flip-item-->
+                        
+                        <div class="flip-item">
+                            <div class="item-inner shadow-lg rounded">
+                                <h5 class="mb-2">{{page.section5.testimonials.list4.title}}</h5>
+                                <div class="mb-3">{{page.section5.testimonials.list4.description}}
+                                </div>
+                                <div class="source media flex-column flex-md-row">
+                                    <img class="source-profile rounded-circle mr-md-3 mx-auto mx-md-0" src="{{{page.section5.testimonials.list4.img_list}}}" alt="" />
+                                    <div class="source-info media-body pt-3">
+                                        <div>{{page.section5.testimonials.list4.name}}</div>
+                                        <div>{{page.section5.testimonials.list4.address}}</div>
+                                    </div>
+                                </div>
+                            </div><!--//item-inner-->
+                        </div><!--//flip-item-->
+                        
+                        <div class="flip-item">
+                            <div class="item-inner shadow-lg rounded">
+                                <h5 class="mb-2">{{page.section5.testimonials.list5.title}}</h5>
+                                <div class="mb-3">{{page.section5.testimonials.list5.description}}
+                                </div>
+                                <div class="source media flex-column flex-md-row">
+                                    <img class="source-profile rounded-circle mr-md-3 mx-auto mx-md-0" src="{{{page.section5.testimonials.list5.img_list}}}" alt="" />
+                                    <div class="source-info media-body pt-3">
+                                        <div>{{page.section5.testimonials.list5.name}}</div>
+                                        <div>{{page.section5.testimonials.list5.address}}</div>
+                                    </div>
+                                </div>
+                            </div><!--//item-inner-->
+                        </div><!--//flip-item-->
+                        
+                        <div class="flip-item">
+                            <div class="item-inner shadow-lg rounded">
+                                <h5 class="mb-2">{{page.section5.testimonials.list6.title}}</h5>
+                                <div class="mb-3">{{page.section5.testimonials.list6.description}}
+                                </div>
+                                <div class="source media flex-column flex-md-row">
+                                    <img class="source-profile rounded-circle mr-md-3 mx-auto mx-md-0" src="{{{page.section5.testimonials.list6.img_list}}}" alt="" />
+                                    <div class="source-info media-body pt-3">
+                                        <div>{{page.section5.testimonials.list6.name}}</div>
+                                        <div>{{page.section5.testimonials.list6.address}}</div>
+                                    </div>
+                                </div>
+                            </div><!--//item-inner-->
+                        </div><!--//flip-item-->
+                        
+                        <div class="flip-item">
+                            <div class="item-inner shadow-lg rounded">
+                                <h5 class="mb-2">{{page.section5.testimonials.list7.title}}</h5>
+                                <div class="mb-3">{{page.section5.testimonials.list7.description}}
+                                </div>
+                                <div class="source media flex-column flex-md-row">
+                                    <img class="source-profile rounded-circle mr-md-3 mx-auto mx-md-0" src="{{{page.section5.testimonials.list7.img_list}}}" alt="" />
+                                    <div class="source-info media-body pt-3">
+                                        <div>{{page.section5.testimonials.list7.name}}</div>
+                                        <div>{{page.section5.testimonials.list7.address}}</div>
+                                    </div>
+                                </div>
+                            </div><!--//item-inner-->
+                        </div><!--//flip-item-->
+
+                    </div><!--//items-wrapper-->    
+                    <div class="pt-5 text-center">
+                        <a class="scroll-btn btn btn-primary theme-btn font-weight-bold" href="#register">{{page.section5.btn_text}}</a>
+                    </div>
+                </div>
+            </div><!--//container-->
+            
+        </section><!--//testimonial-section-->
+        {{/page.section5.show_or_hide}}
+
+        {{#page.register.show_or_hide}}
+        <section class="benefits-section py-5" id="register"> 
+            <div class="container py-lg-5">
+                <h3 class="mb-5 text-center font-weight-bold">{{page.register.title}}</h3>
+                <div class="mx-auto single-col-max-width section-intro text-center">{{page.register.subtitle}}</div>
+
+                <form id="edd_register_form" class="form-inline text-center col-sm-12 col-xs-12" action="" method="post">
+                    <input type="text" name="firstname" id="edd-user-firstName" class="form-control" placeholder="First Name">
+                    <input type="text" name="lastname" id="edd-user-lastName" class="form-control" placeholder="Last Name">
+                    <input type="text" name="email" id="edd-user-email" class="form-control" placeholder="Email">
+                </form>
+                <div class="pt-3 text-center">
+                    <a id="btn-register" class="btn btn-primary theme-btn theme-btn-ghost font-weight-bold" href="#">{{page.register.btn_text}}</a>
+                </div>
+            </div>
+        </section><!--//register-section-->
+        {{/page.register.show_or_hide}}
+
+		{{>footer}}
+		</div>
+
+        <script>
+            window.__PRELOADED__ = {{{preloaded}}}
+        </script>
+
+		<!-- Vertex library for enabling site updates from https://www.vertex360.co -->
+    	<script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/vertex.min.js"></script>
+		
+		{{>scripts}}
+		
+	</body>
+</html>

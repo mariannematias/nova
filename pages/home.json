@@ -1,0 +1,151 @@
+{
+    "hero_section": {
+        "title": "The best way to promote your app and convert users.",
+        "description": "High converting Bootstrap landing page template made for app developers. Built with Bootstrap 4 and Sass. Get started now!",
+        "btn_text": "Try Nova for FREE",
+        "img_hero": "https://lh3.googleusercontent.com/eVowGlRky_6JniTOGtm3YmGxxGPp5OHSWuI7S_k9pif8a90atOj_8Y8g9TI4gIdbEk-yJqaa9h_jBylXTkLpzFLy"
+    },
+    "section1": {
+        "title": "Trusted by hundreds of software businesses",
+        "clients": [
+            {"img_client" : "https://lh3.googleusercontent.com/ui1l02W0dxrwMCsR21p6whM9ceSSCABb6ODF7qc36H5hH8Fyz6FsFjcYdyBD9gL8h3kxUh0pLEYC3-W6rjl0JzX1KA"},
+            {"img_client" : "https://lh3.googleusercontent.com/5EjOAulqDtmZYIKE5fwnZvUgBLajHgRbCfi19xQH40FfPi9g9fE8wBrSmuk4sBDDTU8Zr0ik-zcS5WeW0x2mLjxh"},
+            {"img_client" : "https://lh3.googleusercontent.com/6LlZVPTwk_lYl7w605Z9PqV3qrEfNSeKUG0nXdQEWE7E-n9JqbITB_BeNXQH3ZMvWCl_UOHmbMBSaVebXD4ADYJpP2A"},
+            {"img_client" : "https://lh3.googleusercontent.com/1SgRqMY95Yr9O3ekJ1CymyCilTCz0F0nzTRqH3zeXlA2QhYdfwpbwPjlrJtm0N6b7bGRyE-25PnSXu8s5kJJ7ozeiQ"},
+            {"img_client" : "https://lh3.googleusercontent.com/1RrvGblPkZMriIuIYlaq-ynCl3mBJGvnxsfEKALS0pOhxzeul6nEL-yoqz_rI015MJYBl-Hoo8j_GsQccg8zTZk8"},
+            {"img_client" : "https://lh3.googleusercontent.com/PbsYwPd3geBeKdnTgADw9zTb8e1FZo0UtNl0U7vrH-_030xHbhQQkmSzlmiFoPcsx7NEmnjC4Urz2RMVzbfr0Cjl"}
+        ],
+        "show_or_hide": true
+    },
+    "section2": {
+        "title": "Market your mobile app effectively with Nova",
+        "lists": {
+            "list1": {
+                "img_list": "https://lh3.googleusercontent.com/kfDRms13A0WFHbqLazALUI0ZIvO9fb_Z2y_MXBn9VKwK5WusBir4YPMjy4de9TwOOln3nKiQoeUFG4w0eK9f_4XVRFU",
+                "title": "Focused on UX",
+                "description": "Use this area to list your app's key benefits. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+            },
+            "list2": {
+                "img_list": "https://lh3.googleusercontent.com/ZTaxdjMtsFxtBLBzOXBpL2M9QyleGdA-shs5ccAQSZ-rTbxI1jkqk9VQdQBgwtlVHdqYCQIItF9VqDsECW-V1K67Qg",
+                "title": "Convert Users",
+                "description": "Use this area to list your app's key benefits. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+            },
+            "list3": {
+                "img_list": "https://lh3.googleusercontent.com/vWkzlfBJJ4f05INXU4adqej2Jgxw8pwCzZFhLczv-lv0tbP0S-fBrn7Ia2lDMGb8mbxjfkAxw8x_P54olAI5bccVZA",
+                "title": "Easy Customisations",
+                "description": "Use this area to list your app's key benefits. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+            }
+        },
+        "btn_text": "Learn More",
+        "show_or_hide": true
+    },
+    "section3": {
+        "title": "Feature Highlights",
+        "section1": {
+            "img_section": "https://lh3.googleusercontent.com/svcBlsK_7giScZM8pz0EqOCJ0HSQYgx9xeQ1sxoiQgRX4gdJIlJO2e50gn2JtLIh8BB1_GhsJENrQ3MvwE8G5IJqdg",
+            "lists": {
+                "list1": {
+                    "img_icon": "https://lh3.googleusercontent.com/LLvBcbEo4baPbBOa2P5cJiuSmx3C61em3Zp33oBAIj28Kwa1ojv4HuZ2qvjKKuxBA_AWtqK7HO4phO3wpvvALyRz",
+                    "title": "Feature Lorem Ipsum",
+                    "description": "List one of your product's main features here. The screenshots used in this template are taken from Bootstrap 4 admin template Appify."
+                },
+                "list2": {
+                    "img_icon": "https://lh3.googleusercontent.com/JeMGX_LpCRE5Q-c_GU8ddS9BBCm6F44_yxkgh3rGr-kb9MogflJI66-L9ex3p2C5Q1R2_9d5emRv2BLNPqf3tR5J5g",
+                    "title": "Feature Consectetuer",
+                    "description": "List one of your product's main features here. The screenshots used in this template are taken from Bootstrap 4 admin template Appify."
+                },
+                "list3": {
+                    "img_icon": "https://lh3.googleusercontent.com/XZfawxg2jV9X1NohH8uv5JInmanZL7PSiOGMC8t6e-nnlkN2jpW9KPh_9noXhNIQyUdqXygYT5zpzApidZ-6UNMYTA",
+                    "title": "Feature Lorem Ipsum",
+                    "description": "List one of your product's main features here. The screenshots used in this template are taken from Bootstrap 4 admin template Appify."
+                }
+            }
+        },
+        "section2": {
+            "lists": {
+                "list1": {
+                    "img_icon": "https://lh3.googleusercontent.com/FFrhC6Cc2qFLnhcKoM3LM4TghzveWQ9f4O86G-_eVTS7EfImj8N4ZA53XfBcrpAx9Et_9vw1z9x3pVCHPyESm0s5",
+                    "title": "Feature Commodo",
+                    "description": "List one of your product's main features here. The screenshots used in this template are taken from Bootstrap 4 admin template Appify."
+                },
+                "list2": {
+                    "img_icon": "https://lh3.googleusercontent.com/dLrmryHIpGw-qylLrvjcE70uTvArs-7trw0Le3YCYgsD-bxPFy80bt3CYUAfXd9pXvLaByALYfw3KNO_ExUlnW4UPIg",
+                    "title": "Feature Lorem Ipsum",
+                    "description": "List one of your product's main features here. The screenshots used in this template are taken from Bootstrap 4 admin template Appify."
+                }
+            },
+            "img_section": "https://lh3.googleusercontent.com/LSSiFO8k8sRjpeXTriizB6wv_X7ZLNec0WCewgSsVHdjycahabpx86vb6HOuYISCTJZ3JeL9LLyOWo54EAnHClXZdg"
+        },
+        "btn_text": "View all features",
+        "show_or_hide": true
+    },
+    "section4": {
+        "title": "Ready to turn your visitors to app users?",
+        "description": "Try Nova Free Today. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.",
+        "btn_text": "Download  Now - It's FREE",
+        "show_or_hide": true
+    },
+    "section5": {
+        "title": "Loved by thousands of app developers like you",
+        "testimonials": {
+            "list1": {
+                "title": "Amazing App!",
+                "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+                "img_list": "https://lh3.googleusercontent.com/N562fhcambaff0Jas98CEHE1EKe_G6TX6bG8owSmIlz4xookU8_lQ9GnrQpt0Bol6gUFwqfOR5LRjZlJgogg-ptPQqM",
+                "name": "Tony Carter",
+                "address": "London, UK"
+            },
+            "list2": {
+                "title": "Marvellous!",
+                "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+                "img_list": "https://lh3.googleusercontent.com/B6gQC1LtUPw7NL1So6j1pK1dt8taoFBYx0lZpAgmNSMe4ZGk9Nk89-1UmgFiUyCucduGXOH94SVwlA7wjcj0PHnFKg",
+                "name": "Helen Owens",
+                "address": "New York, US"
+            },
+            "list3": {
+                "title": "Actually Impressive!",
+                "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+                "img_list": "https://lh3.googleusercontent.com/GQL1Z0rFQXp_5_Z4EB5d3m-cdbvMgJe5zcBk6F5CpS9D8J5kxOO7u38SGRGqlKEcF7H3TkJr4ln5GyNBLU4kON_GonQ",
+                "name": "Scott Rivers",
+                "address": "Florida, US"
+            },
+            "list4": {
+                "title": "Total Game Changer!",
+                "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+                "img_list": "https://lh3.googleusercontent.com/kh6RzglpD6JUxGLQNDt-4bMhqGpXXu8HVcmoptLNxyoLTFTcePecmJCpegVXgYj1in6g_9FUov86uJuTGSp98f62",
+                "name": "Charles Brewer",
+                "address": "San Francisco, US"
+            },
+            "list5": {
+                "title": "Just Perfect!",
+                "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+                "img_list": "https://lh3.googleusercontent.com/kh6RzglpD6JUxGLQNDt-4bMhqGpXXu8HVcmoptLNxyoLTFTcePecmJCpegVXgYj1in6g_9FUov86uJuTGSp98f62",
+                "name": "Debora Reed",
+                "address": "Paris, France"
+            },
+            "list6": {
+                "title": "Exceptional!",
+                "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+                "img_list": "https://lh3.googleusercontent.com/MHh_Cg_-OcL6cM30_TDwhnWigCeyhkfIZgmxz3mSJFDDpiZ1KoVKqOv7K9JeAYha0SP9tt9d56kFmpADSNpFX48Lqg",
+                "name": "Tony Cheng",
+                "address": "San Francisco, US"
+            }
+            ,
+            "list7": {
+                "title": "Great App!",
+                "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+                "img_list": "https://lh3.googleusercontent.com/ftA2lWwzsdwtn_6ZFdDFlp7S6ra82swl53jOFofkT6DPSNAxdyY4PuCEdZy4kd7rmdt_O1bHJP48q0HLo-hIjW4UOjg",
+                "name": "Kimberly Wells",
+                "address": "London, UK"
+            }
+        },
+        "btn_text": "Try Nova Now",
+        "show_or_hide": true
+    },
+    "register": {
+        "title": "Register",
+        "subtitle": "Lorem ipsum dolor sit amet consectetur adipiscing elit quae cum dixisset finem ille.",
+        "btn_text": "Register",
+        "show_or_hide": true
+    }
+}

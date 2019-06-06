@@ -1,0 +1,27 @@
+<header class="header">      
+    <div class="branding">  
+        <div class="container position-relative">
+            <nav class="navbar navbar-expand-lg" >
+                <h1 class="site-logo"><a class="navbar-brand" href="/"><img class="logo-icon" src="{{{global.img_logo_nav}}}" alt="logo"></a></h1>
+            </nav>
+            
+            <ul class="social-list list-inline mb-0 position-absolute">
+                {{#global.social.twitter.show_or_hide}}
+                <li class="list-inline-item"><a class="text-dark" href="{{{global.social.twitter.link}}}"><i class="fab fa-twitter fa-fw"></i></a></li>
+                {{/global.social.twitter.show_or_hide}}
+                
+                {{#global.social.facebook.show_or_hide}}
+                <li class="list-inline-item"><a class="text-dark" href="{{{global.social.facebook.link}}}"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+                {{/global.social.facebook.show_or_hide}}
+                
+                {{#global.social.instagram.show_or_hide}}
+                <li class="list-inline-item"><a class="text-dark" href="{{{global.social.instagram.link}}}"><i class="fab fa-instagram fa-fw"></i></a></li>
+                {{/global.social.instagram.show_or_hide}}
+            </ul><!--//social-list-->
+            
+        </div><!--//container-->
+        
+    </div><!--//branding-->
+
+
+</header><!--//header-->

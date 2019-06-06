@@ -1,0 +1,29 @@
+.logo-icon {
+    width: 160px;
+}
+.benefits-section .item-inner img {
+    width: 70px;
+}
+.features-section .card-title img {
+    width: 26px;
+    margin-right: 1rem;
+}
+.vertex {
+    padding-top: 3rem;
+}
+#register form {
+    width: 520px;
+    margin: auto;
+    padding-top: 2rem;
+}
+.form-inline .form-control {
+    width: 340px;
+    display: block;
+    margin: .7rem auto;
+}
+
+@media (max-width: 576px) {
+    #register form {
+        width: auto;
+    }
+}
